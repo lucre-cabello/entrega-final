@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Ponete en contacto con nosotros.">
+            <meta name="keywords" content="contacto, consultas, preguntas frecuentes, random">
+        <link rel="stylesheet" href="../CSS/estilos.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"crossorigin="anonymous"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <title>Contact Us</title>
+    </head>
+<body>
+    <a href="https://wa.me/3513749205?text=Hola!%20Hacenos%20tu%20consulta" class="btn-ws" target="blank">
+        <img class="icono-ws" src="../Icono-WS/WhatsApp-icon-PNG.png">
+    </a>
+    <header>
+        <div class="top">
+            <label for="search">Buscar</label>
+            <input type="text">
+        </div>
+        <div class="imgContainer">
+        <img src="../Logo-img/imagen.jpg"  alt="logo">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+                <li><a href="iniciarSesion.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- Formulario de contacto -->
+
+<h1 class="contacto" >Contact Us</h1>
+    <form class="formulario-contacto" action="contacto.html" method="POST">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+            </div>
+            <div class="col-md-8">
+                <input type="text" class="form-control" id="inputtelefono" placeholder="Teléfono de contacto" >
+            </div>
+            <div class="form-floating col-md-8 ">
+                <textarea class="form-control" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Escriba su consulta</label>
+            </div>
+            <div>     
+            <button type="button" class="btn btn-primary btn-m">Limpiar formulario</button>
+            <button type="button" class="btn btn-secondary btn-m">Enviar</button>
+            </div>
+        </div>
+    </form>
+
+    
+
+<!-- Footer -->
+<footer>
+    <div class="footerContenido flex-column flex-md-row">
+        <div class="contenidoIzq">
+            <ul>                                
+                <li><p> <i class="fas fa-at fa-2x"></i> random.regaleria@gmail.com</p></li>
+                <li><p> <i class="fas fa-phone-volume fa-2x"></i> 153749205</p></li>
+                <li><p> <i class="fas fa-map-marker-alt fa-2x"></i> Parana 487, Córdoba</p></li>
+            </ul>
+        </div>
+        <div class="contenidoDerecha">
+            <p>Seguinos en nuestras redes</p>
+            <ul>
+                <li><a href="www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a></li>
+                <li><a href="www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a></li>
+                <li><a href="www.pinterest.com"><i class="fab fa-pinterest fa-2x"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyRight">
+        <p> @Copyright hecho con ❤ por Lucrecia Cabello</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</body>
+</html>
